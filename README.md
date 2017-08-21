@@ -2,7 +2,7 @@
 
 `json.except!` is a reverse method of `json.extract!`
 
-In some `extract!` use cases, you need render all attributes, or you just need ***except*** one or two, this gem will make you do it in an easy way.
+In some `extract!` use cases, you need render all attributes, or you just need ***except*** one or two. This gem will let you do it in an easy way.
 
 ## Installation
 
