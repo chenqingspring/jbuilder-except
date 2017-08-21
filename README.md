@@ -1,8 +1,8 @@
-# Jbuilder::Except
+# jbuilder-except
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jbuilder/except`. To experiment with that code, run `bin/console` for an interactive prompt.
+`json.except!` is a reverse method of `json.extract!`
 
-TODO: Delete this and the text above, and describe your gem
+In some `extract!` use cases, you need render all attributes, or you just need***except***one or two, this gem will make you do it in an easy way.
 
 ## Installation
 
@@ -22,20 +22,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Show all attributes of resource except `id` and `updated_at`.
 
-## Development
+    json.except! @resource, :id, :updated_at
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Show every attribute of resource.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+    json.except! @resource
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jbuilder-except. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/chenqingspring/jbuilder-except. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-

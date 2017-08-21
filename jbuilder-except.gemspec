@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['CHEN Qing']
   spec.email         = ['chenqing1213@gmail.com']
 
-  spec.summary       = 'jbuilder#except is a reverse method of jbuilder#extract.'
-  spec.description   = 'A jbuider plugin for extract resource except some attributes.'
+  spec.summary       = 'json#except! is a reverse method of json#extract!.'
+  spec.description   = 'this jbuilder plugin for extract resource except some attributes.'
   spec.homepage      = 'https://github.com/chenqingspring/jbuilder-except'
   spec.license       = 'MIT'
 
