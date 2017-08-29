@@ -1,5 +1,7 @@
 # jbuilder-except
 
+[![Gem Version](https://badge.fury.io/rb/jbuilder-except.svg)](https://badge.fury.io/rb/jbuilder-except)
+
 `json.except!` is a reverse method of `json.extract!`
 
 In some `extract!` use cases, you need render all attributes, or you just need ***except*** one or two. This gem will let you do it in an easy way.
